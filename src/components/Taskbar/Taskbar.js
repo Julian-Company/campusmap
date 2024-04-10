@@ -11,7 +11,7 @@ function Taskbar() {
       <ul className="taskbar-menu">
         <li><a href="#">Home</a></li>
         <li><a href="https://www.pnw.edu/events/category/university-calendar/" target = "_blank">Events</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Buildings</a></li>
       </ul>
       <button className="taskbar-button">Sign In</button>
     </div>

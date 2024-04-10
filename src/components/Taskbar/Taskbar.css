@@ -1,6 +1,6 @@
 
 :root {
-    --primary-color: #eb6b34;
+    --primary-color: #E8D4A2;
     --secondary-color:rgb(114, 34, 0)4;
 }
 
@@ -31,14 +31,20 @@
 }
   
 .taskbar-menu li a {
-    color: purple;
+    color: black;
+    font-weight: 600;
     text-decoration: none;
+    transition: color .5s;
+}
+
+.taskbar-menu li a:hover {
+    color: var(--primary-color);
 }
   
 .taskbar-button {
-    background-color: #4CAF50;
+    background-color: var(--primary-color);
     border: none;
-    color: white;
+    color: black;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -48,4 +54,3 @@
     cursor: pointer;
     border-radius: 4px;
 }
-  
