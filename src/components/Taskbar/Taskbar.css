@@ -1,0 +1,51 @@
+
+:root {
+    --primary-color: #eb6b34;
+    --secondary-color:rgb(114, 34, 0)4;
+}
+
+#pnw-logo {
+    height: 80%;
+}
+
+.taskbar {
+    background-color: rgba(245, 245, 245, 0.932); 
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+  
+.taskbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+.taskbar-menu li {
+    margin-right: 20px;
+    color: black
+}
+  
+.taskbar-menu li a {
+    color: purple;
+    text-decoration: none;
+}
+  
+.taskbar-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+  
