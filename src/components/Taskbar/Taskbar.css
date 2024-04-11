@@ -1,16 +1,14 @@
 
 :root {
     --primary-color: #E8D4A2;
-    --secondary-color:rgb(114, 34, 0)4;
 }
 
 #pnw-logo {
-    height: 80%;
+    height: 90%;
 }
 
 .taskbar {
     background-color: rgba(245, 245, 245, 0.932); 
-    color: #fff;
     padding: 10px;
     display: flex;
     justify-content: space-between;
