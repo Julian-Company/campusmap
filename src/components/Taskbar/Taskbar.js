@@ -8,17 +8,21 @@ function Taskbar() {
     return (
     <div className = "taskbar">
 
-      <img src={logo} alt="PNW Logo" id = "pnw-logo"/>
+      <a href = "/" id = "pnw-logo"><img src={logo} alt="PNW Logo" id = "pnw-logo"/></a>
 
       <ul className="taskbar-menu">
         <li><a href="https://www.pnw.edu/events/category/university-calendar/" target = "_blank">Events</a></li>
-        <li><a href="#">Element 1</a></li>
-        <li><a href="#">Element 2</a></li>
-        <li><a href="#">Element 3</a></li>
-        <li><a href="#">Element 4</a></li>
+        <li><a href="1">Element 1</a></li>
+        <li><a href="2">Element 2</a></li>
+        <li><a href="3">Element 3</a></li>
+        <li><a href="4">Element 4</a></li>
       </ul>
 
-      <button className="taskbar-button">Sign In</button>
+      <div className = "search-and-sign-in">
+        <input type="text" placeholder="Search Location"></input>
+        <button className="taskbar-button">Sign In</button>
+      </div>
+      
 
     </div>
     )
