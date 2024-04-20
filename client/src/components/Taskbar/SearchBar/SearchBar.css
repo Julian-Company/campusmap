@@ -1,0 +1,18 @@
+.search-bar {
+    margin-right: 30px;
+    width: 200px;
+    position: relative;
+}
+
+input[type=text] {
+    width: 100%;
+    background-color: rgba(0,0,0,.05);
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}

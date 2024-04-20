@@ -8,12 +8,12 @@
 }
 
 .taskbar {
-    background-color: rgba(245, 245, 245, 0.932); 
+    background-color: rgba(184, 178, 178, 0.295); 
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 70px;
 }
   
 .taskbar-menu {
@@ -32,7 +32,7 @@
     color: black;
     font-weight: 600;
     text-decoration: none;
-    transition: color .5s;
+    transition: color .3s;
 }
 
 .taskbar-menu li a:hover {
@@ -53,15 +53,7 @@
     border-radius: 4px;
 }
 
-input[type=text] {
-    margin-right: 10px;
-    background-color: rgba(0,0,0,.05);
-    font-size: 16px;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-input[type=text]:focus {
-    outline: none;
+.search-and-sign-in {
+    display: flex;
+    
 }

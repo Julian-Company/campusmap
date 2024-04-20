@@ -1,7 +1,8 @@
 
 import React from 'react'
 import "./Taskbar.css"
-import logo from "./pnw-logo.png"
+import logo from "./taskbar-images/pnw-logo.png"
+import SearchBar from "./SearchBar/SearchBar"
 
 function Taskbar() {
 
@@ -19,7 +20,7 @@ function Taskbar() {
       </ul>
 
       <div className = "search-and-sign-in">
-        <input type="text" placeholder="Search Location"></input>
+        <SearchBar/>
         <button className="taskbar-button">Sign In</button>
       </div>
       

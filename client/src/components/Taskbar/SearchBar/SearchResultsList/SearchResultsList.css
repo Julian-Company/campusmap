@@ -1,0 +1,14 @@
+
+.results-list {
+    position: absolute;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    max-height: 300px;
+
+    
+}
