@@ -5,8 +5,13 @@ import Axios from 'axios'
 import SearchResultsList from './SearchResultsList/SearchResultsList';
 
 function SearchBar() {
+
+    // state to set whether the input tag is inFocus
+    const [isSearchBarActive, setSearchBarActive] = useState(false)
+
     const [results, setResults] = useState([])
     const [input, setInput] = useState("");
+
     const fetchData = (value) => {
 
         Axios.get("http://localhost:3001/getBuildings")
@@ -25,16 +30,26 @@ function SearchBar() {
 
     }
 
-    const handleChange = (value) => {
-        setInput(value)
-        fetchData(value)
+    const handleSearchBarFocus = () => {
+        setSearchBarActive(true)
+
     }
 
+    const handleSearchBarBlur = () => {
+       
+        setSearchBarActive(false);
+     
+    }
+
+    const handleChange = (value) => {
+        setInput(value)
+        fetchData(value.toLowerCase())
+    }
 
     return (
-        <div className = "search-bar">
+        <div className = "search-bar" onMouseEnter = {handleSearchBarFocus} onMouseLeave = {handleSearchBarBlur}>
             <input type="text" placeholder="Search Location" value = {input} onChange = {(e) => handleChange(e.target.value)}></input>
-            <SearchResultsList results = {results} ></SearchResultsList> 
+            <SearchResultsList results = {results} isSearchBarActive = {isSearchBarActive}></SearchResultsList> 
         </div>
     )
 

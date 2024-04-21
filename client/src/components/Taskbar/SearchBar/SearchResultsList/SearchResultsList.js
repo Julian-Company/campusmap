@@ -1,9 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./SearchResultsList.css"
 import SearchResult from "./SearchResult/SearchResult"
 
-const SearchResults = ({results}) => {
+const SearchResultsList = ({results, isSearchBarActive}) => {
+
   return (
+
+    
+    
+    isSearchBarActive &&
     <div className = "results-list">
     { results.map( (result, id) => {
             return <SearchResult result = {result}/>
@@ -13,4 +18,4 @@ const SearchResults = ({results}) => {
   )
 }
 
-export default SearchResults
+export default SearchResultsList
