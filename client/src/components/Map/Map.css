@@ -1,5 +1,9 @@
 
 .map {
     height: 90vh;
-    padding-top: 20vh;
+    padding-top: 3px;
+}
+
+.leaflet-container {
+    height: 90vh;
 }

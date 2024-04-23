@@ -18,19 +18,8 @@ function App() {
 
   return (
     <div className="App">
-      <Taskbar></Taskbar>
+      <Taskbar className = "taskbar"></Taskbar>
       <Map></Map>
-      <div>
-        {
-          listOfUsers.map( (user) => {
-            return (
-            <div>
-              <h1>Name: {user.name}</h1>
-              </div>)
-          })
-        }
-
-      </div>
     </div>
   );
 }

@@ -20,7 +20,7 @@ function Taskbar() {
       </ul>
 
       <div className = "search-and-sign-in">
-        <SearchBar/>
+        <SearchBar className = "search"/>
         <button className="taskbar-button">Sign In</button>
       </div>
       
