@@ -1,21 +1,20 @@
 
 :root {
     --primary-color: #E8D4A2;
-    --secondary-color:rgb(114, 34, 0)4;
 }
 
 #pnw-logo {
-    height: 80%;
+    height: 90%;
 }
 
 .taskbar {
-    background-color: rgba(245, 245, 245, 0.932); 
-    color: #fff;
+    background-color: rgba(184, 178, 178, 0.295); 
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 70px;
+    box-shadow: 1px 1px 4px black;
 }
   
 .taskbar-menu {
@@ -34,7 +33,7 @@
     color: black;
     font-weight: 600;
     text-decoration: none;
-    transition: color .5s;
+    transition: color .3s;
 }
 
 .taskbar-menu li a:hover {
@@ -53,4 +52,10 @@
     margin: 0;
     cursor: pointer;
     border-radius: 4px;
+    box-shadow: 1px 1px 3px black;
 }
+
+.search-and-sign-in {
+    display: flex;
+}
+

@@ -1,0 +1,19 @@
+.search-bar {
+    margin-right: 30px;
+    width: 200px;
+    position: relative;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    font-size: 16px;
+    border: none;
+    box-shadow: 1px 1px 4px black;
+}
+
+input[type=text]:focus {
+    outline: none;
+}

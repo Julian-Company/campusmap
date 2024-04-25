@@ -1,0 +1,12 @@
+
+.results-list {
+    position: absolute;
+    width: 200px;
+    background-color:white;
+    box-shadow: 1px 1px 4px black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: 300px;
+    z-index: 1000;
+}

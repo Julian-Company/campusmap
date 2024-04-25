@@ -1,0 +1,10 @@
+.search-result {
+    padding: 10px;
+    color: black;
+    text-align: left;
+}
+
+.search-result:hover {
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
